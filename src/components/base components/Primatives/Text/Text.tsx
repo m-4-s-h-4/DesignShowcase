@@ -80,7 +80,7 @@ const Text = <
           mediaStyle.fontSize = "5vw";
           break;
         case "h3":
-          mediaStyle.fontSize = "3.5vw";
+          mediaStyle.fontSize = "2vw";
           break;
         case "note":
           mediaStyle.fontSize = "2.2vw";

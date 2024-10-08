@@ -7,7 +7,7 @@ const HeadingWrapper = styled.div`
   max-width: 60vw;
   margin: 0 auto;
 
-  @media (max-width: 600px) {
+  @media (max-width: 1024px) {
     max-width: 90vw;
   }
 `;
