@@ -1,0 +1,65 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 08 Oct 2024 21:56:04 GMT
+ */
+
+
+
+:root {
+  --tokens-color-primary-black-100: #080808;
+  --tokens-color-primary-white-100: #FFF9F1;
+  --background-color-dark: var(--tokens-color-primary-black-100);
+  --background-color-light: var(--tokens-color-primary-white-100);
+  --text-color-dark: var(--tokens-color-primary-black-100);
+  --text-color-light: var(--tokens-color-primary-white-100);
+  --spacing-spacing-0: 0rem;
+  --spacing-spacing-1: 0.625rem;
+  --spacing-spacing-2: 1.25rem;
+  --spacing-spacing-3: 1.875rem;
+  --spacing-spacing-4: 2.5rem;
+  --spacing-spacing-5: 3.125rem;
+  --spacing-spacing-6: 3.75rem;
+  --spacing-spacing-7: 4.375rem;
+  --spacing-spacing-8: 5rem;
+  --spacing-spacing-9: 5.625rem;
+  --spacing-spacing-10: 6.25rem;
+  --display-heading-main-font-family: October Wish;
+  --display-heading-main-font-weight: 500;
+  --display-heading-main-line-height: 90%;
+  --display-heading-main-font-size: 25vw;
+  --display-heading-main-letter-spacing: 0;
+  --display-heading-main-text-decoration: none;
+  --display-heading-main-text-case: uppercase;
+  --h1-heading-main-font-family: October Wish;
+  --h1-heading-main-font-weight: 500;
+  --h1-heading-main-line-height: 125%;
+  --h1-heading-main-font-size: 13vw;
+  --h1-heading-main-letter-spacing: 0;
+  --h1-heading-main-text-decoration: none;
+  --h1-heading-main-text-case: uppercase;
+  --h2-heading-main-font-family: Gendy;
+  --h2-heading-main-font-weight: 400;
+  --h2-heading-main-line-height: 90%;
+  --h2-heading-main-font-size: 4vw;
+  --h2-heading-main-letter-spacing: 0;
+  --h2-heading-main-text-decoration: none;
+  --h2-heading-main-text-case: uppercase;
+  --h3-heading-main-font-family: sepiaridom;
+  --h3-heading-main-font-weight: 400;
+  --h3-heading-main-line-height: 100%;
+  --h3-heading-main-font-size: 1.5vw;
+  --h3-heading-main-letter-spacing: 0;
+  --h3-heading-main-text-decoration: none;
+  --h3-heading-main-text-case: none;
+  --body-font-family: Sepiaridom;
+  --body-line-height: 107%;
+  --body-font-weight: 400;
+  --body-font-size: 1.1vw;
+  --body-letter-spacing: 0;
+  --body-text-case: uppercase;
+  --note-font-family: Sepiaridom;
+  --note-font-weight: 400;
+  --note-font-size: 1.2vw;
+  --note-letter-spacing: 0;
+  --note-text-case: uppercase;
+}

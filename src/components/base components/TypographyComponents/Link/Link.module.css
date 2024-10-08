@@ -1,0 +1,21 @@
+.link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.underline {
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  height: 1px;
+  background-color: currentColor;
+  width: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+.link:hover .underline {
+  width: 100%;
+}
