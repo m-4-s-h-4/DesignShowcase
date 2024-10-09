@@ -28,7 +28,6 @@ const Thumbnail = styled.div`
       display: block;
     }
 
-    /* Vendor prefixes for cross-browser compatibility */
     &:-webkit-full-screen {
       width: auto;
       height: auto;
@@ -135,10 +134,16 @@ const WorkDisplay: React.FC = () => {
     // Update the currently playing video ID
     setCurrentlyPlayingId(id);
 
-    // Play the new video
+    // Play the new video and handle muting for 1 second
     const currentVideo = videoRefs.current[id];
     if (currentVideo) {
+      currentVideo.muted = true; // Mute the video initially
       currentVideo.play();
+
+      // Unmute the video after 1 second
+      setTimeout(() => {
+        currentVideo.muted = false;
+      }, 1000); // 1000 milliseconds = 1 second
     }
   };
 
@@ -168,6 +173,7 @@ const WorkDisplay: React.FC = () => {
                   loop
                   controls={currentlyPlayingId === work.id}
                   autoPlay={currentlyPlayingId === work.id}
+                  muted={true} // Set initial state to muted
                 />
               ) : (
                 <p>Video unavailable</p>
